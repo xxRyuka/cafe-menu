@@ -1,0 +1,424 @@
+:root {
+    --white-gray: #E8ECFF;
+    --yellow: #FFBF00;
+    --dark-yellow: #EAA012;
+    --dark-gray: #3E434E;
+    --dark-white: #959AB4;
+}
+
+
+.bg-white-gray {
+    background-color: var(--white-gray);
+}
+
+.bg-dark-gray {
+    background-color: var(--dark-gray);
+    color: white;
+}
+
+
+
+
+
+
+
+.bg-detail {
+    background: #EFEFBB;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #D4D3DD, #EFEFBB);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #D4D3DD, #EFEFBB);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+
+.bg-gradient-purp {
+    background: #12c2e9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+
+/* modal css */
+
+.text-gold {
+    color: #d4af37 !important;
+  }
+  .bg-gold {
+    background-color: #d4af37 !important ;
+  }
+  .border-gold {
+    border: 2px solid #d4af37 !important;
+  }
+  .btn-gold {
+    background-color: #d4af37 !important;
+    border-color: #d4af37 !important;
+  }
+  .text-muted {
+    color: #cccccc !important;
+  }
+
+/* modal css end */
+
+
+/* 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800 */
+
+.dosis {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+
+* {
+    font-family:"Dosis",  sans-serif;
+}
+
+.bona-nova-sc-regular {
+    font-family: "Bona Nova SC", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bona-nova-sc-bold {
+    font-family: "Bona Nova SC", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bona-nova-sc-regular-italic {
+    font-family: "Bona Nova SC", system-ui;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+.kahvalti {
+    background-image: url(/images/turk-kahvalti-57436.webp);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+.kahve {
+    background-image: url(/images/kahve.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.sicak-icecek {
+    background-image: url(/images/cay.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+.kokteyl {
+    background-image: url(images/kokteyl\ elegant.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.tost {
+    background-image: url(images/tost.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.pizza {
+    background-image: url(images/pizza.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.kirmizi-et {
+    background-image: url(images/kirmizi\ et.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: bottom center;
+    background-size: cover;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.steak {
+    background-image: url(images/steak.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: bottom center;
+    background-size: cover;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+
+.corba {
+    background-image: url(images/corba.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.tatli {
+    background-image: url(images/tatli.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.makarna {
+    background-image: url(images/makarna.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+
+.salata {
+    background-image: url(images/salad.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.fastfood {
+    background-image: url(images/fastfood.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+
+.softicecek {
+    background-image: url(images/soft.webp);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.fajita {
+    background-image: url(images/fajita.webp);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.cerez {
+    background-image: url(images/cerezjpg.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.beyaz-et {
+    background-image: url(images/beyaz\ et.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.gozleme {
+    background-image: url(images/gozleme.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.menemen {
+    background-image: url(images/menemen.webp);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.omlet {
+    background-image: url(images/omlet.webp);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.wrap {
+    background-image: url(images/wrap.webp);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.frozen {
+    background-image: url(images/frozen.png);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.aperatif {
+    background-image: url(images/aperatif.webp);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.softdrink {
+    background-image: url(images/soft.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+.softdrink {
+    background-image: url(images/soft.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+
+
+
+
+.temp {
+    background-image: url(images/colorful-bird-illustration-gradient.png);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}

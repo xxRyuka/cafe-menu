@@ -1,0 +1,145 @@
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #d4af37;
+    border-width: 2px 0 0 0;
+    border-radius: 20px;
+}
+
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #d4af37;
+    border-width: 0 0 2px 0;
+    border-radius: 20px;
+}
+
+
+
+hr.style-seven-p {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #6c63ff;
+    border-width: 2px 0 0 0;
+    border-radius: 20px;
+}
+
+hr.style-seven-p:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #6c63ff;
+    border-width: 0 0 2px 0;
+    border-radius: 20px;
+}
+
+
+
+hr.style-seven-b {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px 0 0 0;
+    border-radius: 20px;
+    opacity:100% ;
+}
+
+hr.style-seven-b:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0 0 2px 0;
+    border-radius: 20px;
+    opacity:80% ;
+
+}
+
+
+
+
+
+
+
+/* second modal */
+
+.bg-gradient-primary {
+    background: linear-gradient(135deg, #1b1f3a, #2d3264);
+  }
+  .bg-gradient-secondary {
+    background: linear-gradient(135deg, #2d3264, #434a7a);
+  }
+  .text-accent {
+    color: #e4a5ff;
+  }
+  .bg-accent {
+    background-color: #6c63ff;
+  }
+  .border-accent {
+    border: 2px solid #6c63ff;
+  }
+  .btn-accent {
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+  }
+
+  /* second modal end  */
+
+
+
+  /* another  */
+
+  .muted-2 {
+    color: #6c757d;
+  }
+  .primary-2 {
+    color: #007bff;
+  }
+  .border-primary-2 {
+    border-color: #007bff;
+  }
+  .bg-2-pr {
+    background-color: #007bff;
+  }
+  .bg-2-light {
+    background-color: #f8f9fa;
+  }
+
+
+
+
+.badge-gradient{
+    background: rgb(29,29,27);
+    background: linear-gradient(146deg, rgba(29,29,27,1) 0%, rgba(39,39,37,1) 31%, rgba(26,26,26,1) 72%, rgba(48,48,45,1) 94%); 
+    padding: 1.5px 20px;
+    font-family: "Dosis";
+    font-weight: 400;
+    text-shadow: .01px .01px 2px white;
+}
+
+.btn-details{
+    background: rgb(29,29,27);
+    background: linear-gradient(146deg, rgba(29,29,27,1) 0%, rgba(39,39,37,1) 31%, rgba(26,26,26,1) 72%, rgba(48,48,45,1) 94%); 
+    padding: 3px 25px;
+    font-family: "Dosis";
+    font-weight: 600;
+    /* text-shadow: .01px .01px 2px white; */
+}
+
+.btn-details:hover{
+opacity: 50%;
+}
+
+  
+

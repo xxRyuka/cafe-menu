@@ -1,0 +1,2304 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dosis:wght@200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="kahvaltı.html">
+</head>
+
+<body class="bg-white-gray">
+
+
+    <div id="loading">
+
+        <div id="loadingTEMP" class="loading " >
+
+            <div class="loader"></div>
+
+
+            <div>
+                <h1 class="text-white font-opening opening-text"> Cihangir Cafe.</h1>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+
+
+    <div id="content" style="display: none;">
+        <!-- header start -->
+
+        <nav class="navbar navbar-expand-lg nav  navigation-bar rounded">
+
+            <div class="container-fluid justify-content-Around">
+                <div class="nav-btns"> <a href="" class="nav-link nav-item nav-color">İletişim</a></div>
+
+                <a href="#" class="nav-link text-white">
+                    <!-- <img src="/images/colorful-bird-illustration-gradient.png" alt="Bootstrap" width="50"> -->
+                    <b>CihangirLogo</b>
+                </a>
+                <div class="nav-btsn"><a href="#" class="nav-link nav-item nav-color"> Rezervasyon </a></div>
+            </div>
+
+        </nav>
+
+        <!-- nav end -->
+
+
+
+
+
+
+
+
+        <!-- Modals Start (Detail Page) -->
+
+        <!-- comleted modal start  -->
+
+
+        <!-- kahvaltı modal -->
+        <div class="modal fade" id="kahvaltiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Kahvaltılar</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/turk-kahvalti-57436.webp" class="img-fluid rounded-start"
+                                            alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom  ">
+                                                    <span class="menu-item">Serpme Kahvaltı (2 Kişilik)</span>
+                                                    <span class="badge-gradient text-light rounded-pill">300₺</span>
+                                                </li>
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Serpme Kahvaltı (Tek Kişilik)</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">150₺</span>
+
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent  ">
+                                                    <span class="menu-item">Peynir Tabağı</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">70₺</span>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- tost modal  -->
+        <div class="modal fade" id="tostModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Tost Çeşitleri</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/tost.jpg" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Kaşarlı Tost</span>
+                                                    <span class="badge-gradient text-light rounded-pill">80₺</span>
+                                                </li>
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Diyet Tost</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">70₺</span>
+
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sucuklu Tost</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">80₺</span>
+
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Karışık Tost</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">90₺</span>
+
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0">
+                                                    <span class="menu-item">Kavurmalı Tost</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">100₺</span>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- tost modal end -->
+
+
+        <!-- kahve modal -->
+
+        <div class="modal fade" id="kahveModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Yöresel Kahveler</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/kahve.jpg" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Türk Kahvesi</span>
+                                                    <span class="badge-gradient text-light rounded-pill">55₺</span>
+                                                </li>
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Damla Sakızlı Türk Kahvesi</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">55₺</span>
+
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Çikolatalı Türk Kahvesi</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">60₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sütlü Türk Kahvesi </span>
+                                                    <span class=" badge-gradient text-light rounded-pill">60₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Menengiç Kahvesi</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">60₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Dibek Kahvesi</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">60₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Şefin Özel Kahvesi</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">75₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0">
+                                                    <span class="menu-item">Cihangir Special</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">80₺</span>
+                                                </li>
+
+
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- kahve modal end -->
+
+
+        <!-- Sicak İçecekler modal  -->
+        <div class="modal fade" id="sicakicecekModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Sıcak İçecekler</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/turk-kahvalti-57436.webp" class="img-fluid rounded-start"
+                                            alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Çay</span>
+                                                    <span class="badge-gradient text-light rounded-pill">10₺</span>
+                                                </li>
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Fincan Çay</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">20₺</span>
+
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Nescafe</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">70₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sütlü Nescafe</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">75₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sıcak Süt</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">60₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Ballı Süt</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">75₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sıcak Çikolata</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">80₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0">
+                                                    <span class="menu-item">Salep</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">75₺</span>
+                                                </li>
+
+
+
+
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sicak İçecek modal end -->
+
+
+
+        <!-- Koktetl  modal  -->
+        <div class="modal fade" id="KokteylModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Kokteyl</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/kokteyl elegant.jpg" class="img-fluid rounded-start"
+                                            alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Renkli Katlar <br> <i
+                                                            class="text-muted menu-detail">Special</i> </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Mojito<br> <i
+                                                            class="text-muted  menu-detail">Limon,Nane,Sprite,Esmer
+                                                            Şeker</i> </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Çilekli Mojito <br> <i
+                                                            class="text-muted menu-detail">+Çilek Dilimleri</i> </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Redbull Mojito <br> <i
+                                                            class="text-muted menu-detail">+Redbull</i> </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Ab-dii <br> <i
+                                                            class="text-muted menu-detail">(Ekşi-Tatlı) Mayhoş
+                                                            Lezzet</i>
+                                                    </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Casper<br> <i
+                                                            class="text-muted menu-detail">Vanilya,Karamel,Nescafe</i>
+                                                    </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Coffe Twister<br> <i
+                                                            class="text-muted menu-detail">Süt,Kahve Çekirdeği Suyu
+                                                            Kremşanti</i> </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Dragon Milk <br> <i
+                                                            class="text-muted menu-detail">Double
+                                                            Espresso,Süt,Vanilya</i>
+                                                    </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Strow Reanut <br> <i
+                                                            class="text-muted menu-detail">Çilekli ve Fıstıklı
+                                                            Dondurma,Süt</i> </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Lemint<br> <i
+                                                            class="text-muted menu-detail">Limonlu Dondurma,Nane
+                                                            Yaprakları,Süt </i> </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Limonacid<br> <i
+                                                            class="text-muted menu-detail">Küp Limon Taneleri,Soda,Esmer
+                                                            Şeker ve Lime Ferahlığı</i> </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Mickey Mouse<br> <i
+                                                            class="text-muted menu-detail">Portakal Suyu,Lime ,Nar </i>
+                                                    </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Artemis<br> <i
+                                                            class="text-muted menu-detail">Ananas Suyu, Şeftali, Çilek
+                                                            ve
+                                                            Kremşanti</i> </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Gold Choc <br> <i
+                                                            class="text-muted menu-detail">Muz ve Çikolata uyumu,
+                                                            Süt</i>
+                                                    </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Minions Caramel <br> <i
+                                                            class="text-muted menu-detail">Muz, Karamelli Dondurma ,
+                                                            Süt</i>
+                                                    </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Blue Devil<br> <i
+                                                            class="text-muted menu-detail">Limon ,Turunç ,Gazoz</i>
+                                                    </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Deep Blue<br> <i
+                                                            class="text-muted menu-detail">Limon ,Curacao
+                                                            Suyu,Sprite</i>
+                                                    </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">White Hanse <br> <i
+                                                            class="text-muted menu-detail"> Ananas Suyu , Kokonat , Süt
+                                                        </i>
+                                                    </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sweat Angel <br> <i
+                                                            class="text-muted menu-detail">Portakal, Nar ve Şeftali
+                                                            Uyumu</i> </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Mindo<br> <i
+                                                            class="text-muted menu-detail">Espresso, Karamel,Süt</i>
+                                                    </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Spiderman<br> <i
+                                                            class="text-muted menu-detail">Portakal, Ananas
+                                                            Suyu,Tonik,Esmer
+                                                            Şeker</i> </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Copa Cabana<br> <i
+                                                            class="text-muted menu-detail">Ananas Suyu, Hindistan
+                                                            Cevizi,Turunç</i> </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sweet Chek<br> <i
+                                                            class="text-muted menu-detail">Çilek ve Muz</i> </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent ">
+                                                    <span class="menu-item">Cindirella <br> <i
+                                                            class="text-muted menu-detail">Ananas,Redbull,Böğürtlen</i>
+                                                    </span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Kokteyl modal end -->
+
+
+        <!-- frozen İçecekler start -->
+        <div class="modal fade" id="frozenModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Frozen</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/frozen.png" class="img-fluid rounded-start"
+                                            alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Çilekli Frozen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">85₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Orman Meyveli Frozen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">85₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Böğürtlenli Frozen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">85₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Karadutlu Frozen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">85₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Mango Frozen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">85₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Şeftali Frozen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">85₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Muz Frozen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">85₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Kavun Frozen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">85₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Kivi Frozen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">85₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Elma Frozen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">85₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Organik Kavun Frozen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">85₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Organik Karpuz Frozen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">85₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent ">
+                                                    <span class="menu-item">Special Frozen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">100₺</span>
+                                                </li>
+
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- frozen modal end -->
+
+
+
+        <!-- soft  İçecekler -->
+        <div class="modal fade" id="softModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Soft İçecekler</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/soft.webp" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Su</span>
+                                                    <span class="badge-gradient text-light rounded-pill">10₺</span>
+                                                </li>
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sade Soda</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">25₺</span>
+
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Meyveli Soda</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">30₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Churchill</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">50₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Cappy</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">45₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Coca Cola</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">45₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sprite</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">45₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0">
+                                                    <span class="menu-item">Fanta</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">45₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0">
+                                                    <span class="menu-item">Yayık Ayran</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">35₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0">
+                                                    <span class="menu-item">Redbull</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">70₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0">
+                                                    <span class="menu-item">Meyve Suyu Çeşitleri</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">45₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0">
+                                                    <span class="menu-item">Naneli Ayran</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">40₺</span>
+                                                </li>
+
+
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- soft İçecek modal end -->
+
+
+
+
+
+        <!-- pizza modal  -->
+        <div class="modal fade" id="pizzaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Pizza Çeşitleri</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/pizza.jpg" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Vejetaryan Pizza</span>
+                                                    <span class="badge-gradient text-light rounded-pill">110₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Margerita Pizza</span>
+                                                    <span class="badge-gradient text-light rounded-pill">110₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sucuklu Pizza</span>
+                                                    <span class="badge-gradient text-light rounded-pill">130₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Ton Balıklı Pizza</span>
+                                                    <span class="badge-gradient text-light rounded-pill">160₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Mexican Pizza</span>
+                                                    <span class="badge-gradient text-light rounded-pill">130₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Karışık Pizza</span>
+                                                    <span class="badge-gradient text-light rounded-pill">140₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Kavurmalı Pizza</span>
+                                                    <span class="badge-gradient text-light rounded-pill">190₺</span>
+                                                </li>
+
+
+
+
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pizza modal end -->
+
+
+
+        <!-- Fast Food  modal start -->
+        <div class="modal fade" id="fastfoodModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Fast Food</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/fastfood.jpg" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Çıtır Tavuk</span>
+                                                    <span class="badge-gradient text-light rounded-pill">130₺</span>
+                                                </li>
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Hamburger </span>
+                                                    <span class=" badge-gradient text-light rounded-pill">130₺</span>
+
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Cheese Burger</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">140₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Tavuk Şinitzel</span>
+                                                    <span class=" badge-gradient text-light rounded-pill">160₺</span>
+                                                </li>
+
+
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fast Food modal end -->
+
+
+
+        <!-- makarna modal  -->
+        <div class="modal fade" id="makarnaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Makarna Çeşitleri</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/makarna.jpg" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Pesta Penne</span>
+                                                    <span class="badge-gradient text-light rounded-pill">110₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Penne Napolitan</span>
+                                                    <span class="badge-gradient text-light rounded-pill">110₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Penne Arabiata</span>
+                                                    <span class="badge-gradient text-light rounded-pill">110₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Kremalı Tavuklu Penne</span>
+                                                    <span class="badge-gradient text-light rounded-pill">130₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Tavuk Fettucini</span>
+                                                    <span class="badge-gradient text-light rounded-pill">130₺</span>
+                                                </li>
+
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- makarna modal end -->
+
+
+
+        <!-- Aperatif modal start  -->
+        <div class="modal fade" id="aperatifModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Aperatifler</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/tost.jpg" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Atıştırma Sepeti</span>
+                                                    <span class="badge-gradient text-light rounded-pill">130₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Parmak Patates</span>
+                                                    <span class="badge-gradient text-light rounded-pill">80₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sosis ve Soğan Halkası</span>
+                                                    <span class="badge-gradient text-light rounded-pill">130₺</span>
+                                                </li>
+
+
+
+
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Aperatif Modal end -->
+
+
+
+        <!-- çorba modal start  -->
+        <div class="modal fade" id="corbaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Çorbalar</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/corba.jpg" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Günün Çorbası</span>
+                                                    <span class="badge-gradient text-light rounded-pill">75₺</span>
+                                                </li>
+
+
+
+
+
+
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Corba Modal end -->
+
+
+
+
+        <!-- Salata modal start  -->
+        <div class="modal fade" id="salataModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Salata Çeşitleri</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/salad.jpg" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Çoban Salatası</span>
+                                                    <span class="badge-gradient text-light rounded-pill">70₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Mevsim Salatası</span>
+                                                    <span class="badge-gradient text-light rounded-pill">70₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Akdeniz Salatası</span>
+                                                    <span class="badge-gradient text-light rounded-pill">80₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sezar Salatası</span>
+                                                    <span class="badge-gradient text-light rounded-pill">110₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Ton Balık Salatası</span>
+                                                    <span class="badge-gradient text-light rounded-pill">110₺</span>
+                                                </li>
+
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Salata Modal end -->
+
+
+
+        <!-- tatli modal start  -->
+        <div class="modal fade" id="tatliModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Tatlı Çeşitleri</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/tatli.jpg" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sütlaç</span>
+                                                    <span class="badge-gradient text-light rounded-pill">70₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Suffle</span>
+                                                    <span class="badge-gradient text-light rounded-pill">110₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Meyve Tabağı<br> <i
+                                                            class="text-muted menu-detail">(4 Kişilik)</i>
+
+                                                    </span>
+                                                    <span class="badge-gradient text-light rounded-pill">320₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Meyve Tabağı <br> <i
+                                                            class="text-muted menu-detail">(2 Kişilik)</i></span>
+                                                    <span class="badge-gradient text-light rounded-pill">160₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Künefe</span>
+                                                    <span class="badge-gradient text-light rounded-pill">-₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Katmer</span>
+                                                    <span class="badge-gradient text-light rounded-pill">-₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Waffle</span>
+                                                    <span class="badge-gradient text-light rounded-pill">140₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Supangle</span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent ">
+                                                    <span class="menu-item">Föndü</span>
+                                                    <span class="badge-gradient text-light rounded-pill">200₺</span>
+                                                </li>
+
+
+
+
+
+
+
+
+
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- tatli Modal end -->
+
+
+
+
+        <!-- kirmizi et modal start  -->
+        <div class="modal fade" id="kirmiziEtModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Kırmızı Etler</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/kirmizi et.jpg" class="img-fluid rounded-start"
+                                            alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Et Kavurma</span>
+                                                    <span class="badge-gradient text-light rounded-pill">260₺</span>
+                                                </li>
+
+
+
+
+
+
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- kirmizi et Modal end -->
+
+
+        <!-- completed end -->
+
+
+
+
+        <!-- on progress start -->
+
+
+        <!-- beyaz modal start  // DİVİNİ OLUŞTURMADIN -->
+        <div class="modal fade" id="beyazEtModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Beyaz Etler</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/beyaz et.jpg" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Barbekü Soslu Tavuk</span>
+                                                    <span class="badge-gradient text-light rounded-pill">170₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Kori Soslu Tavuk</span>
+                                                    <span class="badge-gradient text-light rounded-pill">170₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Soya Soslu Tavuk</span>
+                                                    <span class="badge-gradient text-light rounded-pill">170₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Mexican Tavuk</span>
+                                                    <span class="badge-gradient text-light rounded-pill">170₺</span>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- beyaz et Modal end -->
+
+
+
+        <!-- fajita modal start // DİVİNİ OLUŞTURMADIN -->
+        <div class="modal fade" id="fajitaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Fajita Çeşitleri</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/fajita.webp" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Tavuk Fajita</span>
+                                                    <span class="badge-gradient text-light rounded-pill">180₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Et Fajita</span>
+                                                    <span class="badge-gradient text-light rounded-pill">270₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Combo Fajita</span>
+                                                    <span class="badge-gradient text-light rounded-pill">270₺</span>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fajitaModal end -->
+
+
+
+        <!-- wrap /quesedilla modal start // DİVİNİ OLUŞTURMADIN -->
+        <div class="modal fade" id="wrapModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Wrap / Quesadilla </h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/wrap.webp" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Tavuk Wrap</span>
+                                                    <span class="badge-gradient text-light rounded-pill">130₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Tavuk Quesadilla</span>
+                                                    <span class="badge-gradient text-light rounded-pill">130₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Et Wrap</span>
+                                                    <span class="badge-gradient text-light rounded-pill">160₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Et Quesadilla</span>
+                                                    <span class="badge-gradient text-light rounded-pill">160₺</span>
+                                                </li>
+
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- wrap /quesedilla end -->
+
+
+
+
+
+        <!-- omlet modal start // DİVİNİ OLUŞTURMADIN -->
+        <div class="modal fade" id="omletModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Omlet Çeşitleri</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/omlet.webp" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Kaşarlı Omlet</span>
+                                                    <span class="badge-gradient text-light rounded-pill">80₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sucuklu Omlet</span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Karışık Omlet</span>
+                                                    <span class="badge-gradient text-light rounded-pill">100₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Kavurmalı Omlet</span>
+                                                    <span class="badge-gradient text-light rounded-pill">120₺</span>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- omlet modal end -->
+
+
+
+
+        <!-- menemen modal start // DİVİNİ OLUŞTURMADIN -->
+        <div class="modal fade" id="menemenModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Menemen Çeşitleri</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/menemen.webp" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sade Menemen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">75₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Kaşarlı Menemen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Karışık Menemen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">100₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sucuklu Menemen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Kavurmalı Menemen</span>
+                                                    <span class="badge-gradient text-light rounded-pill">110₺</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- menemen modal end -->
+
+
+        <!-- gözleme modal start // DİVİNİ OLUŞTURMADIN -->
+        <div class="modal fade" id="gozlemeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Gözleme Çeşitleri</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/gozleme.jpg" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sade Gözleme</span>
+                                                    <span class="badge-gradient text-light rounded-pill">75₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Kaşarlı Gözleme</span>
+                                                    <span class="badge-gradient text-light rounded-pill">80₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Peynirli Gözleme</span>
+                                                    <span class="badge-gradient text-light rounded-pill">80₺</span>
+                                                </li>
+
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Otlu Peynirli Gözleme</span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Karışık Gözleme</span>
+                                                    <span class="badge-gradient text-light rounded-pill">90₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sade Gözleme</span>
+                                                    <span class="badge-gradient text-light rounded-pill">80₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Patatesli Gözleme</span>
+                                                    <span class="badge-gradient text-light rounded-pill">80₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Kavurmalı Gözleme</span>
+                                                    <span class="badge-gradient text-light rounded-pill">100₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Sade Gözleme</span>
+                                                    <span class="badge-gradient text-light rounded-pill">80₺</span>
+                                                </li>
+
+
+
+
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- gözleme modal end -->
+
+
+
+
+        <!-- cerez modal start // DİVİNİ OLUŞTURMADIN -->
+        <div class="modal fade" id="cerezModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content border-0 rounded-4 shadow-lg"
+                    style="background: linear-gradient(135deg, #f7f7f7, #e2e2e2);">
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title fs-4 fw-bold muted-2 menu-head" id="exampleModalLabel">Menü</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h3 class="text-center  menu-head">Çerez Çeşitleri</h3>
+                            <hr class="border-primary-2 style-seven-b">
+                            <div class="card bg-2-light border-0 rounded-3 shadow-sm">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="/images/cerezjpg.jpg" class="img-fluid rounded-start" alt="Kahvaltı">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Fıstık Tabağı</span>
+                                                    <span class="badge-gradient text-light rounded-pill">200₺</span>
+                                                </li>
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Çerez Tabağı (2 Kişilik)</span>
+                                                    <span class="badge-gradient text-light rounded-pill">180₺</span>
+                                                </li>
+
+
+                                                <li
+                                                    class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-bottom">
+                                                    <span class="menu-item">Çerez Tabağı (4 Kişilik)</span>
+                                                    <span class="badge-gradient text-light rounded-pill">320₺</span>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn  btn-details text-light" data-bs-dismiss="modal">Menüye
+                            Dön</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- cerez modal end -->
+
+
+
+
+        <!-- on progress end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Modals End (Detail Page) -->
+
+
+        <!-- main start dont touch (Main Page) -->
+
+        <main class="container-fluid">
+            <div class="row gx-1 ">
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#kahvaltiModal"
+                    class="col-6 justify-content-center text-center align-items-center  ">
+                    <!-- <img src="/images/turk-kahvalti-57436.webp" class="img-fluid" alt=""> -->
+                    <div class="kahvalti rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                href="kahvaltı.html" class="text-decoration-none text-color">Kahvaltı</a></h1>
+                    </div>
+
+                </div>
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#tostModal"
+                    class="col-6 justify-content-center text-center  ">
+                    <!-- <img src="/images/turk-kahvalti-57436.webp" class="img-fluid" alt=""> -->
+                    <div class="tost rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Tost</a></h1>
+
+                    </div>
+
+                </div>
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#sicakicecekModal"
+                    class="col-7 gx-1 justify-content-center text-center ">
+                    <!-- <img src="/images/turk-kahvalti-57436.webp" class="img-fluid" alt=""> -->
+                    <div class="sicak-icecek rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Sıcak İçecekler</a></h1>
+
+                    </div>
+
+                </div>
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#KokteylModal"
+                    class="col-5 gx-1 justify-content-center text-center ">
+                    <!-- <img src="/images/turk-kahvalti-57436.webp" class="img-fluid" alt=""> -->
+                    <div class="kokteyl rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Kokteyl</a></h1>
+
+                    </div>
+
+                </div>
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#kahveModal"
+                    class="col-5 justify-content-center text-center ">
+                    <!-- <img src="/images/turk-kahvalti-57436.webp" class="img-fluid" alt=""> -->
+                    <div class="kahve rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Kahve</a></h1>
+
+                    </div>
+
+                </div>
+
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#frozenModal"
+                    class="col-7 justify-content-center text-center">
+                    <div class="frozen rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Frozen</a></h1>
+
+                    </div>
+                </div>
+
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#softModal"
+                    class="col-6 justify-content-center text-center">
+                    <div class="softicecek rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Soft İçecekler</a></h1>
+
+                    </div>
+                </div>
+
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#pizzaModal"
+                    class="col-6 justify-content-center text-center">
+                    <div class="pizza rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Pizza</a></h1>
+
+                    </div>
+                </div>
+
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#fastfoodModal"
+                    class="col-7 justify-content-center text-center">
+                    <div class="fastfood rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Fast Food</a></h1>
+
+                    </div>
+                </div>
+
+
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#makarnaModal"
+                    class="col-5 justify-content-center text-center">
+                    <div class="makarna rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Makarna</a></h1>
+
+                    </div>
+                </div>
+
+
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#corbaModal"
+                    class="col-6 justify-content-center text-center">
+                    <div class="corba rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Çorbalar</a></h1>
+
+                    </div>
+                </div>
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#aperatifModal"
+                    class="col-6 justify-content-center text-center">
+                    <div class="aperatif rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Aperatifler</a></h1>
+
+                    </div>
+                </div>
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#salataModal"
+                    class="col-5 justify-content-center text-center">
+                    <div class="salata rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Salata</a></h1>
+
+                    </div>
+
+                </div>
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#tatliModal"
+                    class="col-7 justify-content-center text-center">
+                    <div class="tatli rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Tatlı</a></h1>
+
+                    </div>
+
+                </div>
+
+
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#beyazEtModal"
+                    class="col-6 justify-content-center text-center">
+
+                    <div class="beyaz-et rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Beyaz Et</a></h1>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#kirmiziEtModal"
+                    class="col-6 justify-content-center text-center">
+                    <div class="kirmizi-et rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Kırmızı Et</a></h1>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#cerezModal"
+                    class="col-12 justify-content-center text-center">
+                    <div class="cerez rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Çerez</a></h1>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#omletModal"
+                    class="col-6 justify-content-center text-center">
+                    <div class="omlet rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Omlet</a></h1>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#menemenModal"
+                    class="col-6 justify-content-center text-center">
+                    <div class="menemen rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Menemen</a></h1>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#gozlemeModal"
+                    class="col-12 justify-content-center text-center">
+                    <div class="gozleme rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Gözleme</a></h1>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#fajitaModal"
+                    class="col-5 justify-content-center text-center">
+                    <div class="fajita rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Fajita</a></h1>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div type="button" data-bs-toggle="modal" data-bs-target="#wrapModal"
+                    class="col-7 justify-content-center text-center">
+                    <div class="wrap rounded justify-content-center text-center align-items-center d-flex">
+                        <h1 class="arkaplan"><a href="" class="text-decoration-none text-color">Wrap / Quesadilla</a>
+                        </h1>
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+        </main>
+
+
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+
+
+
+            </script>
+</body>
+
+</html>
